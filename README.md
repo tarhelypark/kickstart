@@ -20,9 +20,10 @@ Config file names created this way:
 Kickstart files
 ===============
 
-- *xen-lvm-all-auto-min_admin-hu.cfg*: Kickstart for XEN HVM with LVM. Root partotion will us all available space and swap will be 8GB. Basic admin tools and EPEL repo will be installed.
+- *xen-lvm-all-auto-min_admin-hu.cfg*: Kickstart for XEN HVM with LVM. Root partition will use all available space and swap will be duble of RAM. Basic admin tools and EPEL repo will be installed.
 
 Root password
 =============
 
-During the installation _root_ will be set to _'tmppwd'_.
+During the installation _root_ password will be set to _'tmppwd'_.
+__Don't forget to change _root_ password after the first boot!__
