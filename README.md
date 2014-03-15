@@ -6,7 +6,7 @@ Kickstart files for install CentOS quickly.
 How to use it?
 ==============
 
-- Download centos network ISO from http://mirror.centos.org/centos/6/isos/
+- Download centos network install ISO from http://mirror.centos.org/centos/6/isos/
 - Boot from the ISO file
 - On the boot screen press _TAB_ and write 'ks=_config-file-url_' at the end of configuration line where _config-file-url_ is the full URL of kickstart configuration file (you can use short link provided for every config file)
 - Press enter and autmatic installation will start
